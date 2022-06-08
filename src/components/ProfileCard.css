@@ -1,0 +1,61 @@
+.profile-card{
+    background-color:#444444;
+   min-height: 20vh;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.details-container{
+    background-color: black;
+    border-radius: 2px;
+    height: 50vh;
+    width: 90%;
+    padding: 10px;
+}
+.profile-card-avatar{
+    height: 30px;
+}
+.firstname-details{
+    width: 90%;
+    padding: 5%;
+    background-color: rgb(29,29,29);
+    border-radius: 4px;
+}
+.firstname-details p,h1{
+    margin: 0;
+}
+.firstname-details p{
+    font-size: 15px;
+    color: #cecece;
+}
+.firstname-details h1{
+    font-size:  30px; 
+    color: #ffffff;
+}
+.hobby-detail{
+    margin-bottom: 1em ;
+    background-color: white;
+    width: 90%;
+    padding: 2%;
+    border-radius: 2px;
+}
+.hobby-detail p,h1{
+    margin: 0;
+}
+.hobby-detail p{
+    font-size: 15px;
+    color: #1a1919;
+}
+.hobby-detail h1{
+    font-size: 30px;
+    color: #000000;
+}
+
+.profile-card button{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
