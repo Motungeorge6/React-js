@@ -1,11 +1,10 @@
 import './App.css';
-import LoginPage from './components/auth/Sidebar';
+import MainLayout from './components/layout/MainLayout'
 
 function App() {
   return (
           <div className="App">
-              
-              <LoginPage/>
+              <MainLayout />
           </div>
    
   );

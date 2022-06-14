@@ -8,7 +8,8 @@ import { useSelector } from "react-redux";
  let initialValue = props.balance
  const [input,setInput] = useState(initialValue)
  const[exchangeRate,setExchangeRate] = useState({})
- const {budgetAmount} =useSelector(state.budgetReducer)
+ const {budgetAmount} =useSelector((state) => state.budgetReducer)
+ const [selectOption, setSelectOption] = useState("")
      let history = useHistory()
 
      const handleInput = (e) => {
@@ -17,9 +18,9 @@ import { useSelector } from "react-redux";
 
      const handleSelect = (e) => {
           props.setBalance((input * exchangeRate[e.target.valueOf]))
-          history.push
+          history.push()
          
-        //  setSelectOption(e.target.value)
+         setSelectOption(e.target.value)
      }
     
      

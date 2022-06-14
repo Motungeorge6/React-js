@@ -6,6 +6,7 @@ import BudgetBody from './components/budget/BudgetBody'
 
 const Budget = () => {
     const [balance,setBalance] = useState(100000)
+    const [budget, setBudget] = useState("")
     const {budgetState} = useSelector(state => state.budgetReducer)
   return (
     <div className='budget-container'>
