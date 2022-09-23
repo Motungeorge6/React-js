@@ -60,24 +60,19 @@ function a11yProps(index) {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-            <Grid container justifyContent="space-between" height="30px" width="500px">
+            {/* <Grid container justifyContent="space-between" height="30px" width="500px">
                 <Typography>Title</Typography>
                 <Typography>Role</Typography>
                 <Typography>Director</Typography>
                 <Typography>Producer</Typography>
             </Grid>
-            <Grid container justifyContent="space-between" height="30px" width="500px">
-                <Typography fontSize = "20px">Horrible Histories: The Movie</Typography>
-                <Typography>Severus</Typography>
-                <Typography>Director</Typography>
-                <Typography>Producer</Typography>
-            </Grid>
+                
             <Grid container justifyContent="space-between" height="30px" width="500px">
                 <Typography>Title</Typography>
                 <Typography>Role</Typography>
                 <Typography>Director</Typography>
                 <Typography>Producer</Typography>
-            </Grid>
+            </Grid> */}
       </TabPanel>
       <TabPanel value={value} index={1}>
         Item Two
